@@ -7,6 +7,6 @@ namespace Mod2
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
     public class Plugin : BaseUnityPlugin
     {
-        void Awake() { Application.Quit(); }
+        void Awake() => Application.Quit(); 
     }
 }
